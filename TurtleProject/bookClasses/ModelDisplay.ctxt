@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ modelChanged()
+comment0.text=\ method\ to\ notify\ the\ thing\ that\ displays\ that\r\nthe\ model\ has\ changed
+comment1.params=model
+comment1.target=void\ addModel(java.lang.Object)
+comment1.text=\ method\ to\ add\ the\ model\ to\ the\ world\ \r\n@param\ model\ the\ model\ object\ to\ add
+comment2.params=model
+comment2.target=void\ remove(java.lang.Object)
+comment2.text=\ \r\n\ Method\ to\ remove\ the\ model\ from\ the\ world\r\n@param\ model\ the\ model\ object\ to\ remove
+comment3.params=
+comment3.target=java.awt.Graphics\ getGraphics()
+comment3.text=\r\n\ Method\ that\ returns\ the\ graphics\ context\r\n\ for\ this\ model\ display\r\n\ @return\ the\ graphics\ context\ \r\n
+comment4.params=
+comment4.target=void\ clearBackground()
+comment4.text=\r\n\ Method\ to\ clear\ the\ background\r\n
+comment5.params=
+comment5.target=int\ getWidth()
+comment5.text=\ Method\ to\ get\ the\ width\ of\ the\ display\r\n\ @return\ the\ width\ in\ pixels\ of\ the\ display\r\n
+comment6.params=
+comment6.target=int\ getHeight()
+comment6.text=\ Method\ to\ get\ the\ height\ of\ the\ display\r\n\ @return\ the\ height\ in\ pixels\ of\ the\ display\r\n
+numComments=7

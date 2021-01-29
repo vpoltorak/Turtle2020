@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=theColor\ theWidth\ theLine
+comment0.target=PathSegment(java.awt.Color,\ int,\ java.awt.geom.Line2D.Float)
+comment0.text=\r\n\ Constructor\ that\ takes\ the\ color,\ width,\ \r\n\ and\ line\r\n
+comment1.params=g
+comment1.target=void\ paintComponent(java.awt.Graphics)
+comment1.text=\r\n\ Method\ to\ paint\ this\ path\ segment\r\n\ @param\ g\ the\ graphics\ context\r\n
+numComments=2
