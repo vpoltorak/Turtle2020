@@ -83,9 +83,79 @@ public class Turtle extends SimpleTurtle
       forward(side);
       turn(90);
       forward(side);
+  }
+  /**
+   * walk in a random order for n steps
+   * @param steps
+   */
+
+  public void randomWalk(int steps)
+  {
+      for(int i = 0; i <= steps; i += 1) {
+        Random ran = new Random();
+        int num = ran.nextInt(360); //0 to 359
+        forward(10);
+        turn(num + 1); //1 to 360
+      }
+  }
+  /**
+   * draw a rectangle of n width and x height
+   * @param width, height
+   */
+
+  public void drawRec(int width, int height)
+  {
+      forward(height);
       turn(90);
+      forward(width);
+      turn(90);
+      forward(height);
+      turn(90);
+      forward(width);
+  }
+  /**
+   * draw an equilateral triangle with side length n
+   * @param side
+   */
 
+  public void drawEquilateralTriangle(int side)
+  {
+      forward(side);
+      turn(120);
+      forward(side);
+      turn(120);
+      forward(side);
+  }
+  /**
+   * draw a hexagon with side length n
+   * @param side
+   */
 
+  public void drawHex(int side)
+  {
+      forward(side);
+      turn(60);
+      forward(side);
+      turn(60);
+      forward(side);
+      turn(60);
+      forward(side);
+      turn(60);
+      forward(side);
+      turn(60);
+      forward(side);
+  }
+  /**
+   * draw a circle with radius n
+   * @param radius
+   */
+  public void drawCircle(int radius)
+  {
+      double side = 2 * Math.PI * radius / 120;
+      for (int i = 0; i < 120; i++){
+         forward((int)(side)); 
+         turn(3);
+      }
   }
 
 } // this } is the end of class Turtle, put all new methods before this

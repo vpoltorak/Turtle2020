@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Greeter
+comment0.text=\r\n\ Class\ to\ show\ how\ to\ define\ a\ very\ simple\ class.\r\n\ \r\n\ Copyright\ Georgia\ Institute\ of\ Technology\ 2004\r\n\ @author\ Barb\ Ericson\ ericson@cc.gatech.edu\r\n
+comment1.params=argv
+comment1.target=void\ main(java.lang.String[])
+numComments=2
